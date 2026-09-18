@@ -103,6 +103,19 @@ Future Updates
 
 Future changes and improvements will be added to this changelog as the project develops.
 
+Updated changelog
+Corrected Part 1 feedback by adding the missing <title> tag to products.html
+Created and linked an external style.css stylesheet to all six HTML pages, including a CSS reset
+Added a consistent colour palette, Google Fonts, CSS variables, and responsive typography
+Improved page layouts using Flexbox and CSS Grid for navigation, products, gallery, contact information, and brand sections
+Corrected layout and navigation CSS issues that were causing incorrect stacking and overriding Flexbox
+Added visual styling such as shadows, rounded corners, hover/focus effects, navigation underlines, and styled header and footer sections
+Updated the homepage hero video with autoplay, muted, loop, and playsinline settings and removed visible controls.
+Added responsive breakpoints for tablet and mobile devices
+Replaced fixed pixel measurements with flexible units such as rem, em, and %
+Added responsive image support using srcset and sizes
+Tested the website at desktop, tablet, and mobile screen sizes using browser DevTools and resolved a caching issue with a hard refresh
+  
 References
 freeCodeCamp.org (2018). HTML Tutorial - How to Make a Super Simple Website. YouTube. Available at: https://www.youtube.com/watch?v=PlxWf493en4 [Accessed 13 Aug. 2026].
 Air Force 1 ’07 fresh. (2019a). Modalite. https://www.modalite.net/ie/men/nike/shoes/air-force-1-07-fresh/7762269/
