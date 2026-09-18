@@ -115,7 +115,12 @@ Added responsive breakpoints for tablet and mobile devices
 Replaced fixed pixel measurements with flexible units such as rem, em, and %
 Added responsive image support using srcset and sizes
 Tested the website at desktop, tablet, and mobile screen sizes using browser DevTools and resolved a caching issue with a hard refresh
-  
+
+Screenshots of different devices
+<img width="808" height="632" alt="mobile" src="https://github.com/user-attachments/assets/17566692-da71-4b76-9497-6095fb025db9" />
+<img width="807" height="626" alt="tablet" src="https://github.com/user-attachments/assets/ed156668-b3ae-4538-a75a-299978eead91" />
+<img width="807" height="628" alt="desktop" src="https://github.com/user-attachments/assets/eb08ec4d-83bf-4fe7-9c25-2a6198171dd5" />
+
 References
 freeCodeCamp.org (2018). HTML Tutorial - How to Make a Super Simple Website. YouTube. Available at: https://www.youtube.com/watch?v=PlxWf493en4 [Accessed 13 Aug. 2026].
 Air Force 1 ’07 fresh. (2019a). Modalite. https://www.modalite.net/ie/men/nike/shoes/air-force-1-07-fresh/7762269/
