@@ -115,9 +115,36 @@ Added responsive breakpoints for tablet and mobile devices
 Replaced fixed pixel measurements with flexible units such as rem, em, and %
 Added responsive image support using srcset and sizes
 Tested the website at desktop, tablet, and mobile screen sizes using browser DevTools and resolved a caching issue with a hard refresh
-  
+
+Screenshots of different devices
+<img width="808" height="632" alt="mobile" src="https://github.com/user-attachments/assets/17566692-da71-4b76-9497-6095fb025db9" />
+<img width="807" height="626" alt="tablet" src="https://github.com/user-attachments/assets/ed156668-b3ae-4538-a75a-299978eead91" />
+<img width="807" height="628" alt="desktop" src="https://github.com/user-attachments/assets/eb08ec4d-83bf-4fe7-9c25-2a6198171dd5" />
+
 References
 freeCodeCamp.org (2018). HTML Tutorial - How to Make a Super Simple Website. YouTube. Available at: https://www.youtube.com/watch?v=PlxWf493en4 [Accessed 13 Aug. 2026].
+Air Force 1 ’07 fresh. (2019a). Modalite. https://www.modalite.net/ie/men/nike/shoes/air-force-1-07-fresh/7762269/
+Best Shop, W. T., & Kuda. (2026). Nike shox “TL black max orange”. We The Best Shop. https://www.wethebestshopza.co.za/products/nike-shox-tl-black-max-orange/
+Converse Mens Chuck 70 hi plus shoes. (2026a). Extra Butter. https://extrabutterny.com/products/converse-mens-chuck-70-hi-plus-shoesConverse platform all Star Lift Black - Levantè Urban. (2021, April 12). Levantè Urban. https://levante.co.za/product/converse-all-star-lift-platform-black/
+Culture kings. (2026b). Culture Kings. https://www.culturekings.com.au/products/puma-suede-xl-puma-black
+Journeys. (2026). Journeys. Journeys. https://www.journeys.com/product/adidas-campus-00s-athletic-shoe-core-black-cloud-white-off-white-437223
+X crazyfast.3 Firm ground boots. (2019b). Modalite. https://www.modalite.net/ie/kid/adidas/boots/x-crazyfast3-firm-ground-boots/7575238/
+(2026a). Pinterest. https://za.pinterest.com/pin/adidas-superstar-shoes-black--548946642087608141/
+(2026b). Pinterest. https://za.pinterest.com/pin/new-balance-530-en-color-blanco--948852215238425707/
+Nike (South Africa). (2026c). Nike.Com. https://www.nike.com/za/?msockid=22e6cfa8576864ef2fdadd7a56956552
+Adidas. (2022). Adidas official website | Adidas South Africa. In Adidas.co.za. https://www.adidas.co.za/
+
+Updated References
+‘What Is CSS? - Learn Web Development | MDN’, Dec. 2024. Accessed: Aug. 06, 2026. [Online]. Available: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS
+GeeksforGeeks, ‘How to Create a Website Using HTML and CSS?’, GeeksforGeeks. Accessed: 2026. [Online]. Available: https://www.geeksforgeeks.org/web-templates/design-a-web-page-using-html-and-css/
+M. Joshi, ‘How to Build a Website Using HTML and CSS’, BrowserStack. Accessed: 2026. [Online]. Available: https://www.browserstack.com/guide/build-a-website-using-html-css
+W3Schools, ‘CSS Google Fonts’, www.w3schools.com. Accessed: 2026. [Online]. Available: https://www.w3schools.com/css/css_font_google.asp
+L. Oppido, ‘How to Use Google Fonts in CSS: Import Fonts to CSS Files’, Wikihow.tech. Accessed: 2026. [Online]. Available: https://www.wikihow.tech/Use-Google-Fonts-in-CSS
+‘Nike Air Max Trainers, Sneakers & Shoes. Nike ZA’, Nike.com. [Online]. Available: https://www.nike.com/za/w/air-max-shoes-a6d8hzy7ok
+‘Vans South Africa | Knu Skool’, Vans.co.za. [Online]. Available: https://vans.co.za/collections/knu-skool
+PROROZ, How to Create a Website Using HTML & CSS | Step-by-Step Tutorial, (May 16, 2021). [Video]. Available: https://www.youtube.com/watch?v=CQZxeoQeo5c
+Dani Krossing, 17: How to Make a Website Responsive | Learn HTML and CSS | Full Course for Beginners, (Nov. 29, 2017). [Video]. Available: https://www.youtube.com/watch?v=ZYV6dYtz4HA
+Gowtham Tirri, Complete Responsive Website Using HTML CSS | Responsive Web Design Tutorial, (Mar. 24, 2024). Accessed: 2026. [Video]. Available: https://www.youtube.com/watch?v=5NEUGWSD-BE
 Air Force 1 ’07 fresh. (2019a). Modalite. https://www.modalite.net/ie/men/nike/shoes/air-force-1-07-fresh/7762269/
 Best Shop, W. T., & Kuda. (2026). Nike shox “TL black max orange”. We The Best Shop. https://www.wethebestshopza.co.za/products/nike-shox-tl-black-max-orange/
 Converse Mens Chuck 70 hi plus shoes. (2026a). Extra Butter. https://extrabutterny.com/products/converse-mens-chuck-70-hi-plus-shoesConverse platform all Star Lift Black - Levantè Urban. (2021, April 12). Levantè Urban. https://levante.co.za/product/converse-all-star-lift-platform-black/
