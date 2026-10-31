@@ -441,6 +441,224 @@ footer p {
     display: none;
 }
 
+/* =========================================================
+   SPIN THE WHEEL (index.html)
+   Replaces the old wheel styles in style.css
+   ========================================================= */
+
+.wheel-fab {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 90;
+    max-width: calc(100vw - 2rem);
+    padding: 0.75rem 1.25rem;
+    font: inherit;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: var(--color-accent);
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.wheel-fab:hover,
+.wheel-fab:focus {
+    background-color: var(--color-accent-dark);
+}
+
+.wheel-fab.has-reward {
+    color: var(--color-ink);
+    background-color: var(--color-highlight);
+}
+
+/* Dark overlay; the page behind is blurred where the browser supports it */
+.wheel-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 110;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: rgba(20, 21, 26, 0.9);
+}
+
+@supports (backdrop-filter: blur(1px)) {
+    .wheel-modal {
+        background-color: rgba(20, 21, 26, 0.5);
+        backdrop-filter: blur(12px);
+    }
+}
+
+.wheel-modal[hidden] {
+    display: none;
+}
+
+.wheel-card {
+    position: relative;
+    width: 100%;
+    max-width: 30rem;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 1rem;
+}
+
+.wheel-card h2 {
+    margin: 0 0 0.5rem;
+    color: #FFFFFF;
+}
+
+.wheel-card p {
+    margin-left: auto;
+    margin-right: auto;
+    color: #E6E7EC;
+}
+
+.wheel-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    font-size: 1.75rem;
+    line-height: 1;
+    color: #FFFFFF;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.wheel-wrap {
+    --wheel: min(23rem, 82vw);
+    position: relative;
+    width: var(--wheel);
+    height: var(--wheel);
+    margin: 1.75rem auto 1.5rem;
+}
+
+/* The frosted-glass disc (this is the part that spins) */
+.wheel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), inset 0 0 40px rgba(255, 255, 255, 0.2);
+    transition: transform 5s cubic-bezier(0.17, 0.67, 0.12, 0.99);
+}
+
+.wheel-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.15));
+    transform-origin: 50% 100%;
+}
+
+.wheel-slice {
+    position: absolute;
+    inset: 0;
+}
+
+.wheel-content {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    width: 28%;
+    font-size: calc(var(--wheel) / 26);
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+    transform: translateX(-50%);
+}
+
+/* Item pictures sit in a white round badge so their white photo backgrounds blend in */
+.wheel-content img {
+    width: calc(var(--wheel) * 0.15);
+    height: calc(var(--wheel) * 0.15);
+    padding: 0.125rem;
+    object-fit: contain;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Fixed glossy highlight (does not spin) */
+.wheel-shine {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 30% 22%, rgba(255, 255, 255, 0.3), transparent 45%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.wheel-hub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16%;
+    height: 16%;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 0.25rem solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+    transform: translate(-50%, -50%);
+}
+
+.wheel-pointer {
+    position: absolute;
+    top: -0.9rem;
+    left: 50%;
+    z-index: 2;
+    border-left: 0.75rem solid transparent;
+    border-right: 0.75rem solid transparent;
+    border-top: 1.5rem solid var(--color-highlight);
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.5));
+    transform: translateX(-50%);
+}
+
+.wheel-spin {
+    padding: 0.75rem 2rem;
+    font: inherit;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: var(--color-accent);
+    border: 0;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+.wheel-spin:hover,
+.wheel-spin:focus {
+    background-color: var(--color-accent-dark);
+}
+
+.wheel-spin:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.wheel-card p.wheel-result {
+    min-height: 3rem;
+    margin: 1rem 0 0;
+    font-weight: 700;
+    color: var(--color-highlight);
+}
+
 /* Responsive design */
 
 /* Tablet */
