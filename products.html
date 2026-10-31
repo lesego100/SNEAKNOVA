@@ -9,6 +9,7 @@
     <meta name="keywords" content="buy sneakers, sneaker prices, soccer boots, Nike Air Max, Air Jordan 4, Adidas Campus, New Balance 530">
     <meta name="author" content="Lesego Malesa">
     <link rel="stylesheet" href="style.css">
+    <script src="JS/products.js" defer></script>
 </head>
 
 <body>
@@ -38,6 +39,38 @@
         <p>
             Explore a selection of sneakers available through SneakNova.
         </p>
+
+     <div class="product-tools">
+
+        <div>
+          <label for="product-search">Search</label>
+          <input type="search" id="product-search" placeholder="e.g. Air Max">
+        </div>
+
+        <div>
+          <label for="brand-filter">Brand</label>
+          <select id="brand-filter">
+               <option value="">All brands</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="sort-by">Sort by</label>
+          <select id="sort-by">
+               <option value="default">Featured</option>
+               <option value="price-low">Price: low to high</option>
+               <option value="price-high">Price: high to low</option>
+               <option value="name-az">Name: A to Z</option>
+               <option value="name-za">Name: Z to A</option>
+          </select>
+        </div>
+
+        <button type="button" id="clear-filters">Clear</button>
+
+     </div>
+
+          <p id="product-count" aria-live="polite"></p>
+          <p id="no-results" hidden>No sneakers match your search. Try a different name or brand.</p>
 
         <div class="product-grid">
 
