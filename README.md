@@ -79,7 +79,6 @@ Added responsive image attributes (srcset and sizes).
 Tested at desktop, tablet and mobile sizes using browser DevTools.
 
 Part 3 Details
-
 Part 3 added JavaScript functionality, search engine optimisation (SEO), working forms with validation, and deployment.
 
 JavaScript Enhancements
@@ -150,7 +149,7 @@ Gallery – gallery.html
 Enquiry – enquiry.html
 Contact Us – contact.html
 
-The supporting files include: style.css, JS/ (forms.js, lightbox.js, products.js, countdown.js, wheel.js), IMAGES/, robots.txt, sitemap.xml.
+The supporting files include: style.css, JS/ (forms.js, lightbox.js, products.js, wheel.js), IMAGES/, robots.txt, sitemap.xml.
 
 Changelog
 Version 1.0 – Initial Part 1 Development
@@ -186,9 +185,8 @@ Feedback corrections from Part 2
 
 Reviewed the Part 2 marks and feedback. The main improvement area was the reference list.
 Merged the two reference lists, which contained the same Part 1 sources twice, into one list.
-Converted the references to a single consistent Harvard style, because the list previously mixed two different styles.
+Converted the references to a single consistent IEEE style, because the list previously mixed two different styles.
 Fixed entries that had run together on one line, entries with no author or title, and missing access dates.
-Removed a tracking parameter from the Nike URL.
 Added references for the fonts, maps, hosting platform, images and tools used in Parts 2 and 3.
 
 SEO
@@ -240,54 +238,143 @@ Part 3 - Functionality
 ![Map found on contacts page](SCREENSHOTS/SCREENSHOTS/SCREENSHOTS/SCREENSHOTS/SCREENSHOTS/find-us-maps.png)
 
 References
-Adidas (2022) Adidas official website | Adidas South Africa. Available at: https://www.adidas.co.za/ (Accessed: 2026).
 
-Anthropic (2026) Claude [Large language model]. Available at: https://claude.ai (Accessed: 31 October 2026).
+[1] freeCodeCamp.org, *HTML Tutorial - How to Make a Super Simple Website*, (2018). Accessed: Aug. 13, 2026. [Video]. Available: https://www.youtube.com/watch?v=PlxWf493en4
 
-Culture Kings (2026) Puma Suede XL Puma Black. Available at: https://www.culturekings.com.au/products/puma-suede-xl-puma-black (Accessed: 2026).
+[2] “Air Force 1 ’07 fresh,” Modalite, 2019. Accessed: 2026. [Online]. Available: https://www.modalite.net/ie/men/nike/shoes/air-force-1-07-fresh/7762269/
 
-Dani Krossing (2017) 17: How to make a website responsive | Learn HTML and CSS | Full course for beginners [Video]. YouTube, 29 November. Available at: https://www.youtube.com/watch?v=ZYV6dYtz4HA (Accessed: 2026).
+[3] “X Crazyfast.3 firm ground boots,” Modalite, 2019. Accessed: 2026. [Online]. Available: https://www.modalite.net/ie/kid/adidas/boots/x-crazyfast3-firm-ground-boots/7575238/
 
-Extra Butter (2026) Converse Men's Chuck 70 Hi Plus shoes. Available at: https://extrabutterny.com/products/converse-mens-chuck-70-hi-plus-shoes (Accessed: 2026).
+[4] “Nike Shox TL ‘Black Max Orange’,” We The Best Shop, 2026. Accessed: 2026. [Online]. Available: https://www.wethebestshopza.co.za/products/nike-shox-tl-black-max-orange/
 
-freeCodeCamp.org (2018) HTML tutorial – how to make a super simple website [Video]. YouTube. Available at: https://www.youtube.com/watch?v=PlxWf493en4 (Accessed: 13 August 2026).
+[5] “Converse Men’s Chuck 70 Hi Plus shoes,” Extra Butter, 2026. Accessed: 2026. [Online]. Available: https://extrabutterny.com/products/converse-mens-chuck-70-hi-plus-shoes
 
-GeeksforGeeks (n.d.) How to create a website using HTML and CSS? Available at: https://www.geeksforgeeks.org/web-templates/design-a-web-page-using-html-and-css/ (Accessed: 2026).
+[6] “Converse All Star Lift platform black,” Levantè Urban, Apr. 12, 2021. Accessed: 2026. [Online]. Available: https://levante.co.za/product/converse-all-star-lift-platform-black/
 
-GitHub (n.d.) GitHub Pages. Available at: https://pages.github.com/ (Accessed: 31 October 2026).
+[7] “Puma Suede XL Puma Black,” Culture Kings, 2026. Accessed: 2026. [Online]. Available: https://www.culturekings.com.au/products/puma-suede-xl-puma-black
 
-Google (n.d.a) Google Fonts. Available at: https://fonts.google.com/ (Accessed: 31 October 2026).
+[8] “adidas Campus 00s athletic shoe – core black / cloud white / off white,” Journeys, 2026. Accessed: 2026. [Online]. Available: https://www.journeys.com/product/adidas-campus-00s-athletic-shoe-core-black-cloud-white-off-white-437223
 
-Google (n.d.b) Google Maps. Available at: https://www.google.com/maps (Accessed: 31 October 2026).
+[9] Adidas, “Adidas official website | Adidas South Africa,” adidas.co.za, 2022. Accessed: 2026. [Online]. Available: https://www.adidas.co.za/
 
-Joshi, M. (n.d.) How to build a website using HTML and CSS. BrowserStack. Available at: https://www.browserstack.com/guide/build-a-website-using-html-css (Accessed: 2026).
+[10] Nike, “Nike South Africa,” Nike.com, 2026. Accessed: 2026. [Online]. Available: https://www.nike.com/za/
 
-Journeys (2026) adidas Campus 00s athletic shoe – core black / cloud white / off white. Available at: https://www.journeys.com/product/adidas-campus-00s-athletic-shoe-core-black-cloud-white-off-white-437223 (Accessed: 2026).
+[11] “Adidas Superstar shoes black,” Pinterest, 2026. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/adidas-superstar-shoes-black--548946642087608141/
 
-Levantè Urban (2021) Converse All Star Lift platform black. Available at: https://levante.co.za/product/converse-all-star-lift-platform-black/ (Accessed: 2026).
+[12] “New Balance 530 en color blanco,” Pinterest, 2026. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/new-balance-530-en-color-blanco--948852215238425707/
 
-MDN Web Docs (2024) What is CSS? Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS (Accessed: 6 August 2026).
+[13] “What is CSS? - Learn web development | MDN,” MDN Web Docs, Dec. 2024. Accessed: Aug. 06, 2026. [Online]. Available: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/What_is_CSS
 
-Modalite (2019a) Air Force 1 '07 fresh. Available at: https://www.modalite.net/ie/men/nike/shoes/air-force-1-07-fresh/7762269/ (Accessed: 2026).
+[14] GeeksforGeeks, “How to create a website using HTML and CSS?” GeeksforGeeks. Accessed: 2026. [Online]. Available: https://www.geeksforgeeks.org/web-templates/design-a-web-page-using-html-and-css/
 
-Modalite (2019b) X Crazyfast.3 firm ground boots. Available at: https://www.modalite.net/ie/kid/adidas/boots/x-crazyfast3-firm-ground-boots/7575238/ (Accessed: 2026).
+[15] M. Joshi, “How to build a website using HTML and CSS,” BrowserStack. Accessed: 2026. [Online]. Available: https://www.browserstack.com/guide/build-a-website-using-html-css
 
-Nike (2026) Nike South Africa. Available at: https://www.nike.com/za/ (Accessed: 2026).
+[16] “CSS Google fonts,” W3Schools. Accessed: 2026. [Online]. Available: https://www.w3schools.com/css/css_font_google.asp
 
-Nike (n.d.) Nike Air Max trainers, sneakers & shoes. Available at: https://www.nike.com/za/w/air-max-shoes-a6d8hzy7ok (Accessed: 2026).
+[17] L. Oppido, “How to use Google Fonts in CSS: import fonts to CSS files,” wikiHow. Accessed: 2026. [Online]. Available: https://www.wikihow.tech/Use-Google-Fonts-in-CSS
 
-Oppido, L. (n.d.) How to use Google Fonts in CSS: import fonts to CSS files. wikiHow. Available at: https://www.wikihow.tech/Use-Google-Fonts-in-CSS (Accessed: 2026).
+[18] “Nike Air Max trainers, sneakers & shoes. Nike ZA,” Nike.com. Accessed: 2026. [Online]. Available: https://www.nike.com/za/w/air-max-shoes-a6d8hzy7ok
 
-Pinterest (2026a) Adidas Superstar shoes black. Available at: https://za.pinterest.com/pin/adidas-superstar-shoes-black--548946642087608141/ (Accessed: 2026).
+[19] “Vans South Africa | Knu Skool,” Vans.co.za. Accessed: 2026. [Online]. Available: https://vans.co.za/collections/knu-skool
 
-Pinterest (2026b) New Balance 530 en color blanco. Available at: https://za.pinterest.com/pin/new-balance-530-en-color-blanco--948852215238425707/ (Accessed: 2026).
+[20] PROROZ, *How to Create a Website Using HTML & CSS | Step-by-Step Tutorial*, (May 16, 2021). Accessed: 2026. [Video]. Available: https://www.youtube.com/watch?v=CQZxeoQeo5c
 
-PROROZ (2021) How to create a website using HTML & CSS | step-by-step tutorial [Video]. YouTube, 16 May. Available at: https://www.youtube.com/watch?v=CQZxeoQeo5c (Accessed: 2026).
+[21] Dani Krossing, *17: How to Make a Website Responsive | Learn HTML and CSS | Full Course for Beginners*, (Nov. 29, 2017). Accessed: 2026. [Video]. Available: https://www.youtube.com/watch?v=ZYV6dYtz4HA
 
-Tirri, G. (2024) Complete responsive website using HTML CSS | Responsive web design tutorial [Video]. YouTube, 24 March. Available at: https://www.youtube.com/watch?v=5NEUGWSD-BE (Accessed: 2026).
+[22] Gowtham Tirri, *Complete Responsive Website Using HTML CSS | Responsive Web Design Tutorial*, (Mar. 24, 2024). Accessed: 2026. [Video]. Available: https://www.youtube.com/watch?v=5NEUGWSD-BE
 
-Vans South Africa (n.d.) Knu Skool. Available at: https://vans.co.za/collections/knu-skool (Accessed: 2026).
+[23] “White Air Max 90 shoes & trainers. Nike ZA,” Nike.com. Accessed: 2026. [Online]. Available: https://www.nike.com/za/w/white-air-max-90-shoes-4g797zauqmozy7ok
 
-W3Schools (n.d.) CSS Google fonts. Available at: https://www.w3schools.com/css/css_font_google.asp (Accessed: 2026).
+[24] OVERKILL, “Nike Dunk Low Retro HF5441-101 White Malachite,” OVERKILL. Accessed: 2026. [Online]. Available: https://www.overkillshop.com/products/nike-dunk-low-retro-hf5441-101-white-malachite
 
-We The Best Shop (2026) Nike Shox TL 'Black Max Orange'. Available at: https://www.wethebestshopza.co.za/products/nike-shox-tl-black-max-orange/ (Accessed: 2026).
+[25] Le Site de la Sneaker, “Air Jordan 4 Black Cat - CU1110-010,” Le Site de la Sneaker, Sep. 24, 2026. Accessed: 2026. [Online]. Available: https://www.lesitedelasneaker.com/release/air-jordan-4-black-cat-cu1110-010/
+
+[26] “Nike Air Jordan 4 Retro Military Black,” KingWalk, Nov. 04, 2023. Accessed: 2026. [Online]. Available: https://kingwalk.com/in/nike-air-jordan-4-retro-military-black/
+
+[27] M. Le, “Air Jordan 4 ‘Thunder’ will release in original specifications (black toe stitching),” Sneaker News, Feb. 15, 2023. Accessed: 2026. [Online]. Available: https://sneakernews.com/2023/02/14/air-jordan-4-thunder-2023-dh6927-017-release-date/
+
+[28] “Air Jordan 4 Retro ‘White Cement’,” SNEAKERBOX. Accessed: 2026. [Online]. Available: https://sneakerboxshop.ca/products/air-jordan-4-retro-white-cement-fv5029-100
+
+[29] “(GS) Air Jordan 4 Retro ‘Red Metallic’ 408452-112,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/960251951808443499/
+
+[30] “Campus 00s trainer,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/1058064506206174789/
+
+[31] “Sprayground kid Sharks In Paris painted backpack - Black,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/1077908492062556944/
+
+[32] “Nike Air Max 95 trainers & shoes. Air Max 110s. Nike ZA,” Nike.com. Accessed: 2026. [Online]. Available: https://www.nike.com/za/w/air-max-95-shoes-b0mibzy7ok
+
+[33] M. Briguglio, “Official photos of the Nike Air Max 90 ‘Valentine’s Day’,” Sneaker Bar Detroit, Feb. 16, 2021. Accessed: 2026. [Online]. Available: https://sneakerbardetroit.com/nike-air-max-90-valentines-day-dd8029-100-release-date/
+
+[34] “Oregon’s new Nike tax law suggests maybe you can’t just do it - Watchdog.org,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/389842911470019220/
+
+[35] “Puma logo poster design,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/939774647216156580/
+
+[36] “Adidas logo vector - free download,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/1052997956620349129/
+
+[37] “Vans logo on black background,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/1032942864503444091/
+
+[38] “(W) Nike Air Max 90 ‘Volt’ 2020 US 7W,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/4593953206013249600/
+
+[39] “Stanley 30 oz stainless steel Ice Flow flip straw tumbler black 2.0,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/173810866864070137/
+
+[40] “Release dates & launch calendar 2026 PT. Nike SNKRS,” Pinterest. Accessed: 2026. [Online]. Available: https://za.pinterest.com/pin/225320787609069868/
+
+[41] “JavaScript form validation,” W3Schools. Accessed: 2026. [Online]. Available: https://www.w3schools.com/js/js_validation.asp
+
+[42] “HTML & CSS forms and validation,” W3Schools. Accessed: 2026. [Online]. Available: https://www.w3schools.com/htmlcss/htmlcss_forms_validation.asp
+
+[43] GeeksforGeeks, “Validate email address using RegExp in JavaScript,” GeeksforGeeks, Mar. 27, 2026. Accessed: 2026. [Online]. Available: https://www.geeksforgeeks.org/javascript/how-to-validate-email-address-using-regexp-in-javascript/
+
+[44] L. Ristic, “Validate email addresses with regular expressions in JavaScript,” Stack Abuse, May 12, 2023. Accessed: 2026. [Online]. Available: https://stackabuse.com/validate-email-addresses-with-regular-expressions-in-javascript/
+
+[45] W3docs, “How to create mailto links,” W3docs. Accessed: 2026. [Online]. Available: https://www.w3docs.com/snippets/html/how-to-create-mailto-links
+
+[46] GeeksforGeeks, “JavaScript localStorage,” GeeksforGeeks, Sep. 24, 2026. Accessed: 2026. [Online]. Available: https://www.geeksforgeeks.org/javascript/javascript-localstorage/
+
+[47] JavaScript Tutorial, “JavaScript localStorage,” JavaScript Tutorial, Aug. 19, 2022. Accessed: 2026. [Online]. Available: https://www.javascripttutorial.net/web-apis/javascript-localstorage/
+
+[48] B. Semah, “How to use localStorage in JavaScript,” freeCodeCamp.org, Apr. 02, 2025. Accessed: 2026. [Online]. Available: https://www.freecodecamp.org/news/use-local-storage-in-modern-applications/
+
+[49] “How to create a lightbox,” W3Schools. Accessed: 2026. [Online]. Available: https://www.w3schools.com/howto/howto_js_lightbox.asp
+
+[50] GeeksforGeeks, “How to create image lightbox gallery using HTML, CSS and JavaScript?” GeeksforGeeks, Jul. 12, 2025. Accessed: 2026. [Online]. Available: https://www.geeksforgeeks.org/javascript/how-to-create-image-lightbox-gallery-using-html-css-and-javascript/
+
+[51] “How to create image lightbox gallery using HTML, CSS and JavaScript?” Tutorialspoint. Accessed: 2026. [Online]. Available: https://www.tutorialspoint.com/article/how-to-create-image-lightbox-gallery-using-html-css-and-javascript
+
+[52] “JavaScript array sort,” W3Schools. Accessed: 2026. [Online]. Available: https://www.w3schools.com/js/js_array_sort.asp
+
+[53] GeeksforGeeks, “JavaScript string localeCompare() method,” GeeksforGeeks, Jun. 11, 2026. Accessed: 2026. [Online]. Available: https://www.geeksforgeeks.org/javascript/javascript-string-localecompare-method/
+
+[54] “JavaScript string localeCompare() method,” Tutorialspoint. Accessed: 2026. [Online]. Available: https://www.tutorialspoint.com/javascript/string_localecompare.htm
+
+[55] “CSS transitions,” W3Schools. Accessed: 2026. [Online]. Available: https://www.w3schools.com/css/css3_transitions.asp
+
+[56] “CSS conic gradients,” W3Schools. Accessed: 2026. [Online]. Available: https://www.w3schools.com/css/css3_gradients_conic.asp
+
+[57] “conic-gradient() CSS function - CSS | MDN,” MDN Web Docs, May 01, 2026. Accessed: 2026. [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient
+
+[58] “Using CSS transitions - CSS | MDN,” MDN Web Docs, Dec. 16, 2025. Accessed: 2026. [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Transitions/Using
+
+[59] J. D. Rodríguez, “conic-gradient() | CSS-Tricks,” CSS-Tricks, Aug. 23, 2025. Accessed: 2026. [Online]. Available: https://css-tricks.com/almanac/functions/c/conic-gradient/
+
+[60] “Creating a spin wheel with HTML and CSS,” Tutorialpedia, Jan. 16, 2026. Accessed: 2026. [Online]. Available: https://www.tutorialpedia.org/blog/spin-wheel-html-css/
+
+[61] “Embed a map,” Google for Developers. Accessed: 2026. [Online]. Available: https://developers.google.com/maps/documentation/embed/embedding-map
+
+[62] “Robots.txt generator,” W3Schools. Accessed: 2026. [Online]. Available: https://www.w3schools.com/tools/tool_robots_txt.php
+
+[63] “Create and submit a robots.txt file,” Google for Developers. Accessed: 2026. [Online]. Available: https://developers.google.com/crawling/docs/robots-txt/create-robots-txt
+
+[64] “Sitemaps.org - protocol,” Sitemaps.org. Accessed: 2026. [Online]. Available: https://www.sitemaps.org/protocol.html
+
+[65] “Write helpful alt text,” Google for Developers. Accessed: 2026. [Online]. Available: https://developers.google.com/tech-writing/accessibility/self-study/write-alt-text
+
+[66] K. Parihar, “How to write alt text: examples and best practices,” Accessibility.build, Oct. 28, 2026. Accessed: 2026. [Online]. Available: https://accessibility.build/guides/how-to-write-alt-text
+
+[67] GitHub, “GitHub Pages,” GitHub. Accessed: Oct. 31, 2026. [Online]. Available: https://pages.github.com/
+
+[68] Google, “Google Fonts,” Google. Accessed: Oct. 31, 2026. [Online]. Available: https://fonts.google.com/
+
+[69] Google, “Google Maps,” Google. Accessed: Oct. 31, 2026. [Online]. Available: https://www.google.com/maps
+
+[70] Anthropic, “Claude [Large language model],” 2026. Accessed: Oct. 31, 2026. [Online]. Available: https://claude.ai
