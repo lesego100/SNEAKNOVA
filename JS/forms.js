@@ -25,9 +25,27 @@ const PRODUCTS = {
     "f50-elite":     { name: "Adidas F50 Hyperfast Elite Firm Ground Boots", price: 3499, out: [9] },
     "shox-tl":       { name: "Nike Shox TL", price: 3499, out: [10] },
     "aj4-cement":    { name: "Air Jordan 4 Retro White Cement", price: 1499, out: [7, 8] },
-    "shox-r4":       { name: "Nike Shox R4", price: 1999, out: [] }
+    "shox-r4":       { name: "Nike Shox R4", price: 1999, out: [] },
+    "nike-air-max-97":       { name: "Nike Air Max 97", price: 2399, out: [4, 5] },
+    "nike-air-max-1":        { name: "Nike Air Max 1 Schuhe", price: 3199, out: [] },
+    "nike-air-max-patta":    { name: "Nike Air Max 1 Patta", price: 2199, out: [] },
+    "nike-air-max-portal":   { name: "Nike Air Max Portal", price: 2099, out: [10] },
+    "nike-p-6000":           { name: "Nike P-6000", price: 2299, out: [] },
+    "nike-tn-air-max-plus":  { name: "Nike TN Air Max Plus", price: 2499, out: [] },
+    "adidas-samba":          { name: "Adidas Samba OG", price: 1999, out: [7] },
+    "adidas-samba-leopard":  { name: "Adidas Samba Leopard Print", price: 2199, out: [5] },
+    "adidas-samba-wales":    { name: "Adidas Samba Wales Bonner", price: 2199, out: [] },
+    "adidas-love-pink":      { name: "Adidas Samba OG Love Pink Heart Edition", price: 1199, out: [10, 11] },
+    "adidas-samba-rhinestone": { name: "Adidas Samba OG Rhinestone", price: 2699, out: [6] },
+    "adidas-superstar-rhinestone": { name: "Adidas Superstar II Rhinestone Black", price: 2699, out: [5] },
+    "adidas-forum-84":       { name: "Adidas Forum 84 Low", price: 1399, out: [8, 9] },
+    "adidas-campus-bad-bunny": { name: "Adidas Campus X Bad Bunny", price: 2099, out: [] },
+    "puma-speedcats":        { name: "Puma Speedcats", price: 2299, out: [] },
+    "nb-9060":               { name: "New Balance 9060", price: 3199, out: [] },
+    "air-jordan-1-mid":      { name: "Air Jordan 1 Mid", price: 2399, out: [7, 8] },
+    "air-jordan-3":          { name: "Air Jordan 3 Retro", price: 3999, out: [] }
 };
-const SIZES = [5, 6, 7, 8, 9, 10, 11];
+const SIZES = [4, 5, 6, 7, 8, 9, 10, 11];
 
 /* ---------- Validation rules ---------- */
 const NAME_RE = /^[A-Za-zÀ-ÿ'’ -]{2,60}$/;
